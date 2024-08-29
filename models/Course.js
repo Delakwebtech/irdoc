@@ -26,7 +26,7 @@ const Course = sequelize.define(
       type: DataTypes.INTEGER,
       references: {
         model: University,
-        key: 'id',
+        key: 'InstitutionId',
       },
     },
   },

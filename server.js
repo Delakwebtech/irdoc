@@ -12,7 +12,15 @@ const errorHandler = require('./middleware/error');
 const sequelize = require('./config/db');
 sequelize
   .authenticate()
-  .then(() => console.log('Database connected successfully'))
+  .then(() => {
+    console.log('Database connected successfully');
+
+    // After successful authentication, sync the models to create tables
+    return sequelize.sync({ alter: true });
+  })
+  .then(() => {
+    console.log('Database & tables created or altered successfully!');
+  })
   .catch((err) => {
     console.error('Unable to connect to the database:', err);
     process.exit(1);

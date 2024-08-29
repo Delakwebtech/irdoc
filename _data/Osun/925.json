@@ -1,0 +1,116 @@
+[
+    {
+        "CourseId": 1284,
+        "CourseName": "Agricultural Science And Education",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1531,
+        "CourseName": "Education \u0026 Arabic",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1532,
+        "CourseName": "Education \u0026 Christian Religious Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1534,
+        "CourseName": "Education \u0026 Economics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1535,
+        "CourseName": "Education \u0026 Islamic Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1536,
+        "CourseName": "Education \u0026 Mathematics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1538,
+        "CourseName": "Education \u0026 Physics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1541,
+        "CourseName": "Education \u0026 Yoruba",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1551,
+        "CourseName": "Education And Chemistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1557,
+        "CourseName": "Education And English Language",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1559,
+        "CourseName": "Education And French",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1561,
+        "CourseName": "Education And Geography/Physics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1563,
+        "CourseName": "Education And History",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1565,
+        "CourseName": "Education And Integrated Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1571,
+        "CourseName": "Education And Political Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1573,
+        "CourseName": "Education And Social Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1595,
+        "CourseName": "Educational Management",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2083,
+        "CourseName": "Physical And Health Education",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2123,
+        "CourseName": "Primary Education Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

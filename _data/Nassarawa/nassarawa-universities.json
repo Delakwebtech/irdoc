@@ -1,0 +1,46 @@
+[
+    {
+        "InstitutionId": 1099,
+        "InstitutionName": "Bingham University"
+    },
+    {
+        "InstitutionId": 644,
+        "InstitutionName": "College Of Agriculture, Lafia"
+    },
+    {
+        "InstitutionId": 843,
+        "InstitutionName": "College Of Education, Akangwa"
+    },
+    {
+        "InstitutionId": 695,
+        "InstitutionName": "Federal Polytechnic, Nassarawa"
+    },
+    {
+        "InstitutionId": 545,
+        "InstitutionName": "Federal University, Lafia"
+    },
+    {
+        "InstitutionId": 896,
+        "InstitutionName": "Hill College Of Education, Gwanji, Akwanga"
+    },
+    {
+        "InstitutionId": 743,
+        "InstitutionName": "Maurid Institute Of Management And Technology"
+    },
+    {
+        "InstitutionId": 1226,
+        "InstitutionName": "Mewar University, Masaka"
+    },
+    {
+        "InstitutionId": 747,
+        "InstitutionName": "Nacabs Polytechnic"
+    },
+    {
+        "InstitutionId": 748,
+        "InstitutionName": "Nasarawa State Polytechnic"
+    },
+    {
+        "InstitutionId": 567,
+        "InstitutionName": "Nasarawa State University, Keffi"
+    }
+]

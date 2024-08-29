@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 1795,
+        "CourseName": "Guidance \u0026 Counselling",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1827,
+        "CourseName": "Health Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

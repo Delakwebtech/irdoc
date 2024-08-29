@@ -1,0 +1,75 @@
+
+[
+    {
+      "CourseId": 1246,
+      "CourseName": "Accountancy/Accounting",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1377,
+      "CourseName": "Business Management",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1431,
+      "CourseName": "Communications Technology",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1448,
+      "CourseName": "Computer Science",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1510,
+      "CourseName": "Economics",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1622,
+      "CourseName": "English Language And Literature",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1920,
+      "CourseName": "Information Technology",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1983,
+      "CourseName": "Management Studies",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1994,
+      "CourseName": "Mass Communication",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 3358,
+      "CourseName": "Natural and Environmental Sciences",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 3293,
+      "CourseName": "Petroleum Chemistry",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 3512,
+      "CourseName": "Software Engineering",
+      "CGPA_Scale": "4.00",
+      "Special": 0
+    }
+  ]

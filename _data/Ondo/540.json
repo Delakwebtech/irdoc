@@ -1,0 +1,398 @@
+[
+    {
+        "CourseId": 1246,
+        "CourseName": "Accountancy/Accounting",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1262,
+        "CourseName": "Agric Extension And Communication Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1272,
+        "CourseName": "Agricultural And Resource Economics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1275,
+        "CourseName": "Agricultural Economics And Extension Services",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1277,
+        "CourseName": "Agricultural Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1287,
+        "CourseName": "Agriculture",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3495,
+        "CourseName": "Analytical Chemistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1303,
+        "CourseName": "Animal Production And Health Services",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1315,
+        "CourseName": "Applied Geology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1315,
+        "CourseName": "Applied Geology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1316,
+        "CourseName": "Applied Geophysics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1316,
+        "CourseName": "Applied Geophysics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1345,
+        "CourseName": "Architecture",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1352,
+        "CourseName": "Biochemistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1356,
+        "CourseName": "Biology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1362,
+        "CourseName": "Biomedical Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1363,
+        "CourseName": "Biotechnology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1368,
+        "CourseName": "Building",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1371,
+        "CourseName": "Business Administration",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1371,
+        "CourseName": "Business Administration",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1382,
+        "CourseName": "Chemical Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1423,
+        "CourseName": "Civil Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1444,
+        "CourseName": "Computer Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1486,
+        "CourseName": "Crop, Soil And Pest Management",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3553,
+        "CourseName": "Cyber Security",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1510,
+        "CourseName": "Economics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1525,
+        "CourseName": "Ecotourism \u0026 Wildlife Management",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1601,
+        "CourseName": "Electrical /Electronics Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1609,
+        "CourseName": "Electronic and Electrical Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1667,
+        "CourseName": "Entrepreneurship Management Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1680,
+        "CourseName": "Estate Management",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1702,
+        "CourseName": "Fisheries And Aquaculture",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1711,
+        "CourseName": "Food Science And Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1717,
+        "CourseName": "Forestry And Wood Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1868,
+        "CourseName": "Human Anatomy",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1902,
+        "CourseName": "Industrial Chemistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1903,
+        "CourseName": "Industrial Design",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1906,
+        "CourseName": "Industrial Mathematics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1910,
+        "CourseName": "Industrial Production Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1917,
+        "CourseName": "Information And Communication Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3457,
+        "CourseName": "Information Systems",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1920,
+        "CourseName": "Information Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1989,
+        "CourseName": "Marine Science And Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1989,
+        "CourseName": "Marine Science And Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1998,
+        "CourseName": "Mathematics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2012,
+        "CourseName": "Mechanical Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2017,
+        "CourseName": "Mechatronics Engineering Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2025,
+        "CourseName": "Medicine And Surgery",
+        "CGPA_Scale": "5.00",
+        "Special": 1
+    },
+    {
+        "CourseId": 2026,
+        "CourseName": "Metallurgical And Materials Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3334,
+        "CourseName": "Meteorology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2029,
+        "CourseName": "Metrology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2030,
+        "CourseName": "Microbiology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2032,
+        "CourseName": "Minning Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2086,
+        "CourseName": "Physics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2091,
+        "CourseName": "Physics With Electronics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2094,
+        "CourseName": "Physiology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2127,
+        "CourseName": "Project Management Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3433,
+        "CourseName": "Public Health",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2144,
+        "CourseName": "Quantity Surveying",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2151,
+        "CourseName": "Remote Sensing And Geosciences Information System",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3512,
+        "CourseName": "Software Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2207,
+        "CourseName": "Statistics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2213,
+        "CourseName": "Surveying And Geoinformatics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2242,
+        "CourseName": "Transport Management Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2247,
+        "CourseName": "Urban and Regional Planning          ",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

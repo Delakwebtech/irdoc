@@ -1,0 +1,86 @@
+[
+    {
+        "CourseId": 1352,
+        "CourseName": "Biochemistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1356,
+        "CourseName": "Biology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1387,
+        "CourseName": "Chemistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1501,
+        "CourseName": "Dentistry And Dental Surgery",
+        "CGPA_Scale": "5.00",
+        "Special": 1
+    },
+    {
+        "CourseId": 1868,
+        "CourseName": "Human Anatomy",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3312,
+        "CourseName": "Human Physiology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1998,
+        "CourseName": "Mathematics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2025,
+        "CourseName": "Medicine And Surgery",
+        "CGPA_Scale": "5.00",
+        "Special": 1
+    },
+    {
+        "CourseId": 2030,
+        "CourseName": "Microbiology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3617,
+        "CourseName": "Nursing Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2063,
+        "CourseName": "Optometry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2091,
+        "CourseName": "Physics With Electronics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2095,
+        "CourseName": "Physiotherapy",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2207,
+        "CourseName": "Statistics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

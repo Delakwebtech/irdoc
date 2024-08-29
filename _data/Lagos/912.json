@@ -1,0 +1,80 @@
+[
+    {
+        "CourseId": 1530,
+        "CourseName": "Education \u0026 Accountancy",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1533,
+        "CourseName": "Education \u0026 Computer Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1536,
+        "CourseName": "Education \u0026 Mathematics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1541,
+        "CourseName": "Education \u0026 Yoruba",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1557,
+        "CourseName": "Education And English Language",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1559,
+        "CourseName": "Education And French",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1565,
+        "CourseName": "Education And Integrated Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1573,
+        "CourseName": "Education And Social Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1595,
+        "CourseName": "Educational Management",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1795,
+        "CourseName": "Guidance \u0026 Counselling",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1855,
+        "CourseName": "Home Economics And Education",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2054,
+        "CourseName": "Nursery And Primary Education",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2083,
+        "CourseName": "Physical And Health Education",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "CourseId": 1447,
+        "CourseName": "Computer Hardware Engineering/ Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1464,
+        "CourseName": "Computer Software Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1502,
+        "CourseName": "Digital Multimedia Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2051,
+        "CourseName": "Networking \u0026 System Security",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2223,
+        "CourseName": "Telecommunication Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

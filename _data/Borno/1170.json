@@ -1,0 +1,92 @@
+[
+    {
+        "CourseId": 1248,
+        "CourseName": "Accounting",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1287,
+        "CourseName": "Agriculture",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1294,
+        "CourseName": "Animal And Environmental Biology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1363,
+        "CourseName": "Biotechnology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1476,
+        "CourseName": "Criminology And Security Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1510,
+        "CourseName": "Economics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1534,
+        "CourseName": "Education \u0026 Economics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1621,
+        "CourseName": "English Language",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1767,
+        "CourseName": "Geography",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1994,
+        "CourseName": "Mass Communication",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1998,
+        "CourseName": "Mathematics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2086,
+        "CourseName": "Physics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2100,
+        "CourseName": "Plant Science And Biotechnology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2207,
+        "CourseName": "Statistics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

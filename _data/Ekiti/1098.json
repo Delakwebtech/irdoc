@@ -1,0 +1,290 @@
+[
+    {
+        "CourseId": 1245,
+        "CourseName": "Accountancy",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3509,
+        "CourseName": "Aeronautical and Astronautical Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1283,
+        "CourseName": "Agricultural Science (Double Major)",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1287,
+        "CourseName": "Agriculture",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1293,
+        "CourseName": "Anatomy",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1345,
+        "CourseName": "Architecture",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1349,
+        "CourseName": "Banking And Finance",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1352,
+        "CourseName": "Biochemistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3323,
+        "CourseName": "Biomedical Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1371,
+        "CourseName": "Business Administration",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1382,
+        "CourseName": "Chemical Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1423,
+        "CourseName": "Civil Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1430,
+        "CourseName": "Communication Arts",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1444,
+        "CourseName": "Computer Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3544,
+        "CourseName": "Conflict, Peace and Strategic Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3667,
+        "CourseName": "Dentistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1510,
+        "CourseName": "Economics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1607,
+        "CourseName": "Electrical/Electronics Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1621,
+        "CourseName": "English Language",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1767,
+        "CourseName": "Geography",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1786,
+        "CourseName": "Geology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1836,
+        "CourseName": "History And International Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1872,
+        "CourseName": "Human Nutrition And Dietetics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1902,
+        "CourseName": "Industrial Chemistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1917,
+        "CourseName": "Information And Communication Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1929,
+        "CourseName": "Intelligence And Security Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1931,
+        "CourseName": "International Relations And Diplomacy",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1961,
+        "CourseName": "Law",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1969,
+        "CourseName": "Linguistics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1998,
+        "CourseName": "Mathematics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2012,
+        "CourseName": "Mechanical Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2017,
+        "CourseName": "Mechatronics Engineering Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2020,
+        "CourseName": "Medical Laboratory Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2025,
+        "CourseName": "Medicine And Surgery",
+        "CGPA_Scale": "5.00",
+        "Special": 1
+    },
+    {
+        "CourseId": 2030,
+        "CourseName": "Microbiology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2057,
+        "CourseName": "Nursing/Nursing Science BSc.",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2075,
+        "CourseName": "Petroleum Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2080,
+        "CourseName": "Pharmacy",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2082,
+        "CourseName": "Philosophy And Religious Studies",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2094,
+        "CourseName": "Physiology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2131,
+        "CourseName": "Psychology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2132,
+        "CourseName": "Public Administration",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3319,
+        "CourseName": "Social Justice",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2171,
+        "CourseName": "Sociology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2228,
+        "CourseName": "Theatre Arts",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2239,
+        "CourseName": "Tourism And Event Management",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2270,
+        "CourseName": "Zoology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

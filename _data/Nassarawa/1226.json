@@ -1,0 +1,26 @@
+[
+    {
+        "CourseId": 1363,
+        "CourseName": "Biotechnology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3553,
+        "CourseName": "Cyber Security",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3512,
+        "CourseName": "Software Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

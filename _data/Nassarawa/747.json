@@ -1,0 +1,38 @@
+[
+    {
+        "CourseId": 1248,
+        "CourseName": "Accounting",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1372,
+        "CourseName": "Business Administration And Management",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1445,
+        "CourseName": "Computer Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1600,
+        "CourseName": "Electrical / Electronics Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2207,
+        "CourseName": "Statistics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

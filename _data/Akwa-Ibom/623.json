@@ -1,0 +1,44 @@
+[
+    {
+        "CourseId": 1279,
+        "CourseName": "Agricultural Engineering/Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1285,
+        "CourseName": "Agricultural Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1297,
+        "CourseName": "Animal Health And Production Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1372,
+        "CourseName": "Business Administration And Management",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1707,
+        "CourseName": "Fisheries Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2155,
+        "CourseName": "Science Laboratory Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": 1391,
+        "CourseName": "Chemistry/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1444,
+        "CourseName": "Computer Engineering",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2061,
+        "CourseName": "Office Technology And Management",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

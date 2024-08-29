@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": 1335,
+        "CourseName": "Arabic/Islamic Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1336,
+        "CourseName": "Arabic/Kanuri",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1946,
+        "CourseName": "Islamic/Kanuri",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

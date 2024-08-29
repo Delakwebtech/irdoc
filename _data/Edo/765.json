@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 1464,
+        "CourseName": "Computer Software Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1465,
+        "CourseName": "Computer Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

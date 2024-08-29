@@ -1,0 +1,56 @@
+[
+    {
+        "CourseId": 1284,
+        "CourseName": "Agricultural Science And Education",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1375,
+        "CourseName": "Business Education",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1536,
+        "CourseName": "Education \u0026 Mathematics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1538,
+        "CourseName": "Education \u0026 Physics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1543,
+        "CourseName": "Education /Construction Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1544,
+        "CourseName": "Education /Mechanical Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1551,
+        "CourseName": "Education And Chemistry",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1565,
+        "CourseName": "Education And Integrated Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1965,
+        "CourseName": "Library And Information Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

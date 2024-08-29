@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": 1607,
+        "CourseName": "Electrical/Electronics Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1905,
+        "CourseName": "Industrial Maintenance Engineering Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2012,
+        "CourseName": "Mechanical Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "CourseId": 1375,
+        "CourseName": "Business Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1395,
+        "CourseName": "Christian Religious Studies / Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1453,
+        "CourseName": "Computer Science Education/Integrated Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1454,
+        "CourseName": "Computer Science Education/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1520,
+        "CourseName": "Economics/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1523,
+        "CourseName": "Economics/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1924,
+        "CourseName": "Integrated Science / Mathematics Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1938,
+        "CourseName": "Islamic Studies/Christian Religious Knowledge",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1943,
+        "CourseName": "Islamic Studies/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2123,
+        "CourseName": "Primary Education Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

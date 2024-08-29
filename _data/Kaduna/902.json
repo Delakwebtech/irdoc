@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 2204,
+        "CourseName": "Special Needs Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2217,
+        "CourseName": "Technical Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

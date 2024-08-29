@@ -1,0 +1,32 @@
+[
+    {
+        "CourseId": 1447,
+        "CourseName": "Computer Hardware Engineering/ Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1464,
+        "CourseName": "Computer Software Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1465,
+        "CourseName": "Computer Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1470,
+        "CourseName": "Cosmetology And Beauty Therapy",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1864,
+        "CourseName": "Hospitality And Tourism Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "CourseId": 1668,
+        "CourseName": "Enviromental Health Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2020,
+        "CourseName": "Medical Laboratory Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2055,
+        "CourseName": "Nursing BSc.",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2056,
+        "CourseName": "Nursing R.N.",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2057,
+        "CourseName": "Nursing/Nursing Science BSc.",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

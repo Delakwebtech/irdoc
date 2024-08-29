@@ -1,0 +1,32 @@
+[
+    {
+        "CourseId": 1377,
+        "CourseName": "Business Management",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1444,
+        "CourseName": "Computer Engineering",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1451,
+        "CourseName": "Computer Science And Information Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1961,
+        "CourseName": "Law",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2073,
+        "CourseName": "Petroleum And Gas Engineering",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

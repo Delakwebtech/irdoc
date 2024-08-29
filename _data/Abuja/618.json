@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 1464,
+        "CourseName": "Computer Software Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2051,
+        "CourseName": "Networking \u0026 System Security",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

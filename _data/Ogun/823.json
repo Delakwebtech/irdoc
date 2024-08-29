@@ -1,0 +1,62 @@
+[
+    {
+        "CourseId": 1397,
+        "CourseName": "Christian Religious Studies/Economics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1398,
+        "CourseName": "Christian Religious Studies/English",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1413,
+        "CourseName": "Christian Religious Studies/Maths",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1520,
+        "CourseName": "Economics/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1523,
+        "CourseName": "Economics/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1618,
+        "CourseName": "English (Double Major)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1649,
+        "CourseName": "English/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1924,
+        "CourseName": "Integrated Science / Mathematics Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1925,
+        "CourseName": "Integrated Science/Economics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2123,
+        "CourseName": "Primary Education Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

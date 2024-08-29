@@ -1,0 +1,86 @@
+[
+    {
+        "CourseId": 1451,
+        "CourseName": "Computer Science And Information Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1601,
+        "CourseName": "Electrical /Electronics Engineering",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1604,
+        "CourseName": "Electrical Electronics Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1912,
+        "CourseName": "Industrial Safety And Enviromental Technology (Safety)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1913,
+        "CourseName": "Industrial Safety And Enviromental Technology(Enviromental)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2013,
+        "CourseName": "Mechanical Engineering Tech (Manufacturing Option)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2014,
+        "CourseName": "Mechanical Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2015,
+        "CourseName": "Mechanical Engineering Technology(Power/Plant Option)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2031,
+        "CourseName": "Mineral Resources Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2074,
+        "CourseName": "Petroleum And Gas Processing",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3324,
+        "CourseName": "Petroleum Engineering and Geosciences",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2077,
+        "CourseName": "Petroleum Marketing And Business Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2155,
+        "CourseName": "Science Laboratory Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2257,
+        "CourseName": "Welding And Fabrication Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": 1687,
+        "CourseName": "Film \u0026 Tv Production",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2036,
+        "CourseName": "Music",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2071,
+        "CourseName": "Performing \u0026 Media Arts",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

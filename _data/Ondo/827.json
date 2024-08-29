@@ -1,0 +1,86 @@
+[
+    {
+        "CourseId": 1375,
+        "CourseName": "Business Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1398,
+        "CourseName": "Christian Religious Studies/English",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1417,
+        "CourseName": "Christian Religious Studies/Yoruba",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1439,
+        "CourseName": "Computer Education/Economics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1454,
+        "CourseName": "Computer Science Education/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1517,
+        "CourseName": "Economics/Geography",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1520,
+        "CourseName": "Economics/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1522,
+        "CourseName": "Economics/Political Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1523,
+        "CourseName": "Economics/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1624,
+        "CourseName": "English/French",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1752,
+        "CourseName": "French/Yoruba",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1779,
+        "CourseName": "Geography/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2123,
+        "CourseName": "Primary Education Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2269,
+        "CourseName": "Yoruba/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

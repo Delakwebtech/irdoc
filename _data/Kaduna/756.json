@@ -1,0 +1,26 @@
+[
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1962,
+        "CourseName": "Leather Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2119,
+        "CourseName": "Polymer Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2155,
+        "CourseName": "Science Laboratory Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

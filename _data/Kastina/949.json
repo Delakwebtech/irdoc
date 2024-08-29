@@ -1,0 +1,56 @@
+[
+    {
+        "CourseId": 1333,
+        "CourseName": "Arabic/Hausa",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1337,
+        "CourseName": "Arabic/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1454,
+        "CourseName": "Computer Science Education/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1626,
+        "CourseName": "English/Hausa",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1643,
+        "CourseName": "English/Islamic Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1649,
+        "CourseName": "English/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1813,
+        "CourseName": "Hausa/Islamic Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1817,
+        "CourseName": "Hausa/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2123,
+        "CourseName": "Primary Education Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

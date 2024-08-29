@@ -1,0 +1,200 @@
+[
+  {
+    "CourseId": 1283,
+    "CourseName": "Agricultural Science (Double Major)",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1395,
+    "CourseName": "Christian Religious Studies / Social Studies",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1396,
+    "CourseName": "Christian Religious Studies/Computer Education",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1397,
+    "CourseName": "Christian Religious Studies/Economics",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1398,
+    "CourseName": "Christian Religious Studies/English",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1407,
+    "CourseName": "Christian Religious Studies/Igbo",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1413,
+    "CourseName": "Christian Religious Studies/Maths",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1414,
+    "CourseName": "Christian Religious Studies/Political Science",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1439,
+    "CourseName": "Computer Education/Economics",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1440,
+    "CourseName": "Computer Education/English",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1453,
+    "CourseName": "Computer Science Education/Integrated Science",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1454,
+    "CourseName": "Computer Science Education/Mathematics",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1460,
+    "CourseName": "Computer Science/Political Science",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1515,
+    "CourseName": "Economics/English",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1519,
+    "CourseName": "Economics/Igbo",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1520,
+    "CourseName": "Economics/Mathematics",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1522,
+    "CourseName": "Economics/Political Science",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1523,
+    "CourseName": "Economics/Social Studies",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1618,
+    "CourseName": "English (Double Major)",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1631,
+    "CourseName": "English/Igbo",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1648,
+    "CourseName": "English/Political Science",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1649,
+    "CourseName": "English/Social Studies",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1886,
+    "CourseName": "Igbo/Computer Science",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1895,
+    "CourseName": "Igbo/Political Science",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1896,
+    "CourseName": "Igbo/Social Studies",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1924,
+    "CourseName": "Integrated Science / Mathematics Education",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1925,
+    "CourseName": "Integrated Science/Economics",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1927,
+    "CourseName": "Integrated Science/Social Studies",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2008,
+    "CourseName": "Mathematics/Social Studies",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2084,
+    "CourseName": "Physical And Health Education (Double Major)",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2112,
+    "CourseName": "Political Science/Mathematics",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2113,
+    "CourseName": "Political Science/Social Studies",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2123,
+    "CourseName": "Primary Education Studies",
+    "CGPA_Scale": "4.00",
+    "Special": 0
+  }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "CourseId": 1344,
+        "CourseName": "Architectural Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1370,
+        "CourseName": "Building Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1424,
+        "CourseName": "Civil Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2212,
+        "CourseName": "Surveying And Geo-Informatics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "CourseId": 1245,
+    "CourseName": "Accountancy",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1260,
+    "CourseName": "Agric - Business",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1265,
+    "CourseName": "Agric-Extension And Rural Sociology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1268,
+    "CourseName": "Agricultural And Bioresources Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1274,
+    "CourseName": "Agricultural Economics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1284,
+    "CourseName": "Agricultural Science And Education",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1287,
+    "CourseName": "Agriculture",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1289,
+    "CourseName": "Agronomy",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1301,
+    "CourseName": "Animal Production",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1349,
+    "CourseName": "Banking And Finance",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1352,
+    "CourseName": "Biochemistry",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1356,
+    "CourseName": "Biology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1365,
+    "CourseName": "Botany",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1371,
+    "CourseName": "Business Administration",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1382,
+    "CourseName": "Chemical Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1387,
+    "CourseName": "Chemistry",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1423,
+    "CourseName": "Civil Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1444,
+    "CourseName": "Computer Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1448,
+    "CourseName": "Computer Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1510,
+    "CourseName": "Economics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1533,
+    "CourseName": "Education \u0026 Computer Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1536,
+    "CourseName": "Education \u0026 Mathematics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1538,
+    "CourseName": "Education \u0026 Physics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1550,
+    "CourseName": "Education and Biology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1551,
+    "CourseName": "Education And Chemistry",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1565,
+    "CourseName": "Education And Integrated Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1601,
+    "CourseName": "Electrical /Electronics Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1666,
+    "CourseName": "Entrepreneurship And Business Studies",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1675,
+    "CourseName": "Environmental Management And Toxicology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1704,
+    "CourseName": "Fisheries And Aquatic Resources Management",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1711,
+    "CourseName": "Food Science And Technology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1715,
+    "CourseName": "Forestry And Environmental Mgt.",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1786,
+    "CourseName": "Geology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1853,
+    "CourseName": "Home Economics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1855,
+    "CourseName": "Home Economics And Education",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1867,
+    "CourseName": "Hotel Management And Tourism",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1872,
+    "CourseName": "Human Nutrition And Dietetics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1873,
+    "CourseName": "Human Resources Management",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1924,
+    "CourseName": "Integrated Science / Mathematics Education",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1965,
+    "CourseName": "Library And Information Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1991,
+    "CourseName": "Marketing",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1998,
+    "CourseName": "Mathematics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2012,
+    "CourseName": "Mechanical Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2030,
+    "CourseName": "Microbiology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2086,
+    "CourseName": "Physics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2099,
+    "CourseName": "Plant Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2174,
+    "CourseName": "Soil Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2207,
+    "CourseName": "Statistics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2250,
+    "CourseName": "Veterinary Medicine",
+    "CGPA_Scale": "5.00",
+    "Special": 1
+  },
+  {
+    "CourseId": 2270,
+    "CourseName": "Zoology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  }
+]

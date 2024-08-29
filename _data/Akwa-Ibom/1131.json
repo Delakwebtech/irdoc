@@ -1,0 +1,32 @@
+[
+    {
+        "CourseId": 1601,
+        "CourseName": "Electrical /Electronics Engineering",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1987,
+        "CourseName": "Marine Engineering",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3325,
+        "CourseName": "Maritime Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3365,
+        "CourseName": "Maritime Transport And Business Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3327,
+        "CourseName": "Nautical Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

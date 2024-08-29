@@ -1,0 +1,26 @@
+[
+    {
+        "CourseId": 1285,
+        "CourseName": "Agricultural Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1707,
+        "CourseName": "Fisheries Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1712,
+        "CourseName": "Food Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1865,
+        "CourseName": "Hospitality Management",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

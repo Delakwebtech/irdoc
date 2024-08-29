@@ -1,0 +1,103 @@
+[
+  {
+    "InstitutionId": 630,
+    "InstitutionName": "Anambra State College Of Agriculture"
+  },
+  {
+    "InstitutionId": 1094,
+    "InstitutionName": "Anambra State University"
+  },
+  {
+    "InstitutionId": 635,
+    "InstitutionName": "Buckingham Academy Of Management And Technology"
+  },
+  {
+    "InstitutionId": 1212,
+    "InstitutionName": "Chukwuemeka Odumegwu Ojukwu University"
+  },
+  {
+    "InstitutionId": 882,
+    "InstitutionName": "Federal College Of Education (Technidcal), Umunze"
+  },
+  {
+    "InstitutionId": 894,
+    "InstitutionName": "Federal Polytechnic Oko"
+  },
+  {
+    "InstitutionId": 697,
+    "InstitutionName": "Federal Polytechnic, Oko"
+  },
+  {
+    "InstitutionId": 1185,
+    "InstitutionName": "Legacy University, Okija"
+  },
+  {
+    "InstitutionId": 563,
+    "InstitutionName": "Madonna University, Okija"
+  },
+  {
+    "InstitutionId": 1152,
+    "InstitutionName": "National Metallurgical Training Institute"
+  },
+  {
+    "InstitutionId": 570,
+    "InstitutionName": "Nnamdi Azikiwe University, Awka"
+  },
+  {
+    "InstitutionId": 922,
+    "InstitutionName": "Nwafor Orizu College Of Education, Nsugbe"
+  },
+  {
+    "InstitutionId": 923,
+    "InstitutionName": "Onit College Of Education Abagana"
+  },
+  {
+    "InstitutionId": 764,
+    "InstitutionName": "Onit Institute Of Technology"
+  },
+  {
+    "InstitutionId": 579,
+    "InstitutionName": "Paul University, Awka"
+  },
+  {
+    "InstitutionId": 927,
+    "InstitutionName": "Pope John Major Seminary, Okpun, Awka"
+  },
+  {
+    "InstitutionId": 790,
+    "InstitutionName":
+      "School Of Health Information Management- Nnamdi Azikiwe University"
+  },
+  {
+    "InstitutionId": 969,
+    "InstitutionName": "School of Midwifery, Ihiala"
+  },
+  {
+    "InstitutionId": 974,
+    "InstitutionName": "School of Midwifery, Iyi-Enu Hospital, Ogidi"
+  },
+  {
+    "InstitutionId": 984,
+    "InstitutionName": "School of Midwifery, Nkpor"
+  },
+  {
+    "InstitutionId": 1005,
+    "InstitutionName": "School of Midwifery, Waterside, Onitsha"
+  },
+  {
+    "InstitutionId": 1049,
+    "InstitutionName": "School of Nursing \u0026Midwifery,Adazi"
+  },
+  {
+    "InstitutionId": 1054,
+    "InstitutionName": "School of Nursing, Our Lady of Lourdes Hospital, Ihiala"
+  },
+  {
+    "InstitutionId": 1042,
+    "InstitutionName": "School of Nursing,Iyi-Enu Hospital, Ogidi"
+  },
+  {
+    "InstitutionId": 590,
+    "InstitutionName": "Tansain University"
+  }
+]

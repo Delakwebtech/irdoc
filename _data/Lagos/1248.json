@@ -1,0 +1,26 @@
+[
+    {
+        "CourseId": 1263,
+        "CourseName": "Agric Extension and Rural Development",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1444,
+        "CourseName": "Computer Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2012,
+        "CourseName": "Mechanical Engineering",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2090,
+        "CourseName": "Physics Electronics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

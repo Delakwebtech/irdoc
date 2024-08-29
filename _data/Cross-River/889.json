@@ -1,0 +1,428 @@
+[
+    {
+        "CourseId": 1283,
+        "CourseName": "Agricultural Science (Double Major)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1359,
+        "CourseName": "Biology/Integrated Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1360,
+        "CourseName": "Biology/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1375,
+        "CourseName": "Business Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1390,
+        "CourseName": "Chemistry/Integrated Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1395,
+        "CourseName": "Christian Religious Studies / Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1398,
+        "CourseName": "Christian Religious Studies/English",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1400,
+        "CourseName": "Christian Religious Studies/French",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1403,
+        "CourseName": "Christian Religious Studies/Hausa L2.",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1407,
+        "CourseName": "Christian Religious Studies/Igbo",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1409,
+        "CourseName": "Christian Religious Studies/Igbo L3",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1414,
+        "CourseName": "Christian Religious Studies/Political Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1417,
+        "CourseName": "Christian Religious Studies/Yoruba",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1418,
+        "CourseName": "Christian Religious Studies/Yoruba L2",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1439,
+        "CourseName": "Computer Education/Economics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1440,
+        "CourseName": "Computer Education/English",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1441,
+        "CourseName": "Computer Education/Geography",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1443,
+        "CourseName": "Computer Education/Physics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1454,
+        "CourseName": "Computer Science Education/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1460,
+        "CourseName": "Computer Science/Political Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1515,
+        "CourseName": "Economics/English",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1516,
+        "CourseName": "Economics/French",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1519,
+        "CourseName": "Economics/Igbo",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1520,
+        "CourseName": "Economics/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1523,
+        "CourseName": "Economics/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1524,
+        "CourseName": "Economics/Yoruba",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1618,
+        "CourseName": "English (Double Major)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1624,
+        "CourseName": "English/French",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1625,
+        "CourseName": "English/Geography",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1631,
+        "CourseName": "English/Igbo",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1636,
+        "CourseName": "English/Igbo L5",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1642,
+        "CourseName": "English/Integrated Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1645,
+        "CourseName": "English/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1648,
+        "CourseName": "English/Political Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1649,
+        "CourseName": "English/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1662,
+        "CourseName": "English/Yoruba L7",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1691,
+        "CourseName": "Fine And Applied Art (Double Major)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1729,
+        "CourseName": "French/Hausa L4",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1735,
+        "CourseName": "French/Igbo",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1738,
+        "CourseName": "French/Igbo L4",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1745,
+        "CourseName": "French/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1747,
+        "CourseName": "French/Political Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1748,
+        "CourseName": "French/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1754,
+        "CourseName": "French/Yoruba L3",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1775,
+        "CourseName": "Geography/French",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1777,
+        "CourseName": "Geography/Igbo",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1778,
+        "CourseName": "Geography/Integrated Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1779,
+        "CourseName": "Geography/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1783,
+        "CourseName": "Geography/Yoruba",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1802,
+        "CourseName": "Hausa L2/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1803,
+        "CourseName": "Hausa/Economics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1804,
+        "CourseName": "Hausa/Geography",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1806,
+        "CourseName": "Hausa/Igbo",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1816,
+        "CourseName": "Hausa/Political Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1822,
+        "CourseName": "Hausa/Yoruba L4",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1854,
+        "CourseName": "Home Economics (Double Major)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1881,
+        "CourseName": "Igbo /Yoruba L4",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1885,
+        "CourseName": "Igbo L2/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1888,
+        "CourseName": "Igbo/Hausa L3",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1895,
+        "CourseName": "Igbo/Political Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1896,
+        "CourseName": "Igbo/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1898,
+        "CourseName": "Igbo/Yoruba",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1924,
+        "CourseName": "Integrated Science / Mathematics Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1926,
+        "CourseName": "Integrated Science/Physics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2007,
+        "CourseName": "Mathematics/Physics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2008,
+        "CourseName": "Mathematics/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2084,
+        "CourseName": "Physical And Health Education (Double Major)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2113,
+        "CourseName": "Political Science/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2114,
+        "CourseName": "Political Science/Yoruba",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2123,
+        "CourseName": "Primary Education Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2263,
+        "CourseName": "Yoruba / Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

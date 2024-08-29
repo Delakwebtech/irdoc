@@ -1,0 +1,50 @@
+[
+  {
+    "InstitutionId": 818,
+    "InstitutionName": "Abia State College Of Education (Technical)"
+  },
+  {
+    "InstitutionId": 613,
+    "InstitutionName": "Abia State College Of Health Technology"
+  },
+  { "InstitutionId": 614, "InstitutionName": "Abia State Polytechnic" },
+  { "InstitutionId": 1081, "InstitutionName": "Abia State University" },
+  {
+    "InstitutionId": 1189,
+    "InstitutionName": "Clifford University Owerrinta Abia State"
+  },
+  { "InstitutionId": 649, "InstitutionName": "Covenant Polytechnic, Aba" },
+  { "InstitutionId": 1253, "InstitutionName": "Gregory University Uturu" },
+  { "InstitutionId": 1139, "InstitutionName": "Gregory University, Uturu" },
+  {
+    "InstitutionId": 895,
+    "InstitutionName": "Harvard Wilson College Of Education, Aba"
+  },
+  {
+    "InstitutionId": 737,
+    "InstitutionName": "Literacy College Of Management And Technology ( Formerly, The Literacy Centre)"
+  },
+  {
+    "InstitutionId": 565,
+    "InstitutionName": "Michael Okpara University Of Agriculture"
+  },
+  { "InstitutionId": 583, "InstitutionName": "Rhema University" },
+  { "InstitutionId": 952, "InstitutionName": "School of Midwifery, Abia" },
+  { "InstitutionId": 953, "InstitutionName": "School of Midwifery, Abiriba" },
+  { "InstitutionId": 957, "InstitutionName": "School of Midwifery, Amachara" },
+  { "InstitutionId": 1001, "InstitutionName": "School of Midwifery, Umuahia" },
+  {
+    "InstitutionId": 1027,
+    "InstitutionName": "School of Nursing, General Hospital Aba"
+  },
+  {
+    "InstitutionId": 1057,
+    "InstitutionName": "School of Nursing,Queen Elizabeth Hospital, Umuahia"
+  },
+  {
+    "InstitutionId": 1075,
+    "InstitutionName": "School of Psychiatric Nursing, Aba"
+  },
+  { "InstitutionId": 1244, "InstitutionName": "Spiritan University" },
+  { "InstitutionId": 801, "InstitutionName": "Temple-Gate Polytechnic" }
+]

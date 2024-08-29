@@ -1,0 +1,44 @@
+[
+  {
+    "CourseId": 1345,
+    "CourseName": "Architecture",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1510,
+    "CourseName": "Economics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1920,
+    "CourseName": "Information Technology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2284,
+    "CourseName": "Mechatronics Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2024,
+    "CourseName": "Medicine",
+    "CGPA_Scale": "5.00",
+    "Special": 1
+  },
+  {
+    "CourseId": 2107,
+    "CourseName": "Political Science And International Relations",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 3626,
+    "CourseName": "Public and International Law",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  }
+]

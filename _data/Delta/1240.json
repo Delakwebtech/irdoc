@@ -1,0 +1,26 @@
+[
+    {
+        "CourseId": 1245,
+        "CourseName": "Accountancy",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3553,
+        "CourseName": "Cyber Security",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1621,
+        "CourseName": "English Language",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1702,
+        "CourseName": "Fisheries And Aquaculture",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

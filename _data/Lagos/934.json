@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": 1595,
+        "CourseName": "Educational Management",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1795,
+        "CourseName": "Guidance \u0026 Counselling",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2216,
+        "CourseName": "Teacher Education",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 1285,
+        "CourseName": "Agricultural Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1861,
+        "CourseName": "Horticultural Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

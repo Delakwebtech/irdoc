@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": 1285,
+        "CourseName": "Agricultural Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1718,
+        "CourseName": "Forestry Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2260,
+        "CourseName": "Wood And Paper Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

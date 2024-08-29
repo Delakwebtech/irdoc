@@ -1,0 +1,152 @@
+[
+    {
+        "CourseId": 2123,
+        "CourseName": "Primary Education Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2181,
+        "CourseName": "Special Education/Agricultural Science (Double Major)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2182,
+        "CourseName": "Special Education/Arabic",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2183,
+        "CourseName": "Special Education/Biology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2184,
+        "CourseName": "Special Education/Business Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2185,
+        "CourseName": "Special Education/Chemistry",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2186,
+        "CourseName": "Special Education/Christian Religious Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2187,
+        "CourseName": "Special Education/Computer Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2188,
+        "CourseName": "Special Education/Economics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2189,
+        "CourseName": "Special Education/English",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2190,
+        "CourseName": "Special Education/Fine Art (D/M)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2191,
+        "CourseName": "Special Education/French",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2192,
+        "CourseName": "Special Education/Geography",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2193,
+        "CourseName": "Special Education/Hausa",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2194,
+        "CourseName": "Special Education/Home Economics (Double Major)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2195,
+        "CourseName": "Special Education/Igbo",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2196,
+        "CourseName": "Special Education/Integrated Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2197,
+        "CourseName": "Special Education/Islamic Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2198,
+        "CourseName": "Special Education/Mathematics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2199,
+        "CourseName": "Special Education/Music",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2200,
+        "CourseName": "Special Education/Physical And Health Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3673,
+        "CourseName": "Special Education/Physics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2201,
+        "CourseName": "Special Education/Social Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2202,
+        "CourseName": "Special Education/Theatre Arts",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2203,
+        "CourseName": "Special Education/Yoruba",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": 1506,
+        "CourseName": "Early Childhood And Care Education",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1618,
+        "CourseName": "English (Double Major)",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2123,
+        "CourseName": "Primary Education Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

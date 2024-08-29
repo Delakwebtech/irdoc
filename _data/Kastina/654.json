@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": 1446,
+        "CourseName": "Computer Hardware Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1464,
+        "CourseName": "Computer Software Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2052,
+        "CourseName": "Networking And System Security",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

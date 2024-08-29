@@ -1,0 +1,32 @@
+[
+    {
+        "CourseId": 1354,
+        "CourseName": "Biological Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1385,
+        "CourseName": "Chemical Sciences",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1917,
+        "CourseName": "Information And Communication Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1997,
+        "CourseName": "Mathematical Sciences",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

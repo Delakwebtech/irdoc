@@ -1,0 +1,26 @@
+[
+    {
+        "CourseId": 1279,
+        "CourseName": "Agricultural Engineering/Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1285,
+        "CourseName": "Agricultural Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1707,
+        "CourseName": "Fisheries Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

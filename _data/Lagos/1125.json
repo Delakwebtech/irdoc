@@ -1,0 +1,26 @@
+[
+    {
+        "CourseId": 3452,
+        "CourseName": "Complementary Health Sciences",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1673,
+        "CourseName": "Environmental Health Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1829,
+        "CourseName": "Health Information Management",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2020,
+        "CourseName": "Medical Laboratory Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

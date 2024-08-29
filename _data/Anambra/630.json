@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 1285,
+        "CourseName": "Agricultural Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1851,
+        "CourseName": "Home And Rural Economics",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

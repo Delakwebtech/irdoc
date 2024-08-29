@@ -1,0 +1,32 @@
+[
+    {
+        "CourseId": 1432,
+        "CourseName": "Community Health",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1499,
+        "CourseName": "Dental Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1500,
+        "CourseName": "Dental Therapy",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1668,
+        "CourseName": "Enviromental Health Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1829,
+        "CourseName": "Health Information Management",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

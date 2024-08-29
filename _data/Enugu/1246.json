@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 2025,
+        "CourseName": "Medicine And Surgery",
+        "CGPA_Scale": "5.00",
+        "Special": 1
+    },
+    {
+        "CourseId": 2145,
+        "CourseName": "Radiography",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

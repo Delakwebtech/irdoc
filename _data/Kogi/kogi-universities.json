@@ -1,0 +1,62 @@
+[
+    {
+        "InstitutionId": 826,
+        "InstitutionName": "Alhikma College Of Education"
+    },
+    {
+        "InstitutionId": 643,
+        "InstitutionName": "College Of Agriculture, Kabba"
+    },
+    {
+        "InstitutionId": 844,
+        "InstitutionName": "College Of Education, Ankpa"
+    },
+    {
+        "InstitutionId": 1234,
+        "InstitutionName": "Confluence University of Science and Technology, Osara"
+    },
+    {
+        "InstitutionId": 890,
+        "InstitutionName": "Federal College Of Education, Okene"
+    },
+    {
+        "InstitutionId": 691,
+        "InstitutionName": "Federal Polytechnic, Idah"
+    },
+    {
+        "InstitutionId": 546,
+        "InstitutionName": "Federal University, Lokoja"
+    },
+    {
+        "InstitutionId": 909,
+        "InstitutionName": "Kogi State College Of Education"
+    },
+    {
+        "InstitutionId": 728,
+        "InstitutionName": "Kogi State Polytechnic, Lokoja"
+    },
+    {
+        "InstitutionId": 556,
+        "InstitutionName": "Kogi State Uniiversity"
+    },
+    {
+        "InstitutionId": 585,
+        "InstitutionName": "Salem University"
+    },
+    {
+        "InstitutionId": 965,
+        "InstitutionName": "School of Midwifery, Egbe"
+    },
+    {
+        "InstitutionId": 968,
+        "InstitutionName": "School of Midwifery, Grimard Hospital, Anyigba"
+    },
+    {
+        "InstitutionId": 1024,
+        "InstitutionName": "School of Nursing, ECWA, Egbe"
+    },
+    {
+        "InstitutionId": 1033,
+        "InstitutionName": "School of Nursing,General hospital, Obangede"
+    }
+]

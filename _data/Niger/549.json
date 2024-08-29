@@ -1,0 +1,221 @@
+// 20240726101507
+// https://candidate.scholastica.ng/undergraduate/courseslist/549
+
+[
+    {
+      "CourseId": 1248,
+      "CourseName": "Accounting",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1254,
+      "CourseName": "Adult Education",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1275,
+      "CourseName": "Agricultural Economics And Extension Services",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1287,
+      "CourseName": "Agriculture",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1326,
+      "CourseName": "Arabic Studies",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1348,
+      "CourseName": "Arts And International Studies",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1352,
+      "CourseName": "Biochemistry",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1356,
+      "CourseName": "Biology",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1365,
+      "CourseName": "Botany",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1371,
+      "CourseName": "Business Administration",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1387,
+      "CourseName": "Chemistry",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1448,
+      "CourseName": "Computer Science",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1472,
+      "CourseName": "Counsellor Education (Special)",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1510,
+      "CourseName": "Economics",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1546,
+      "CourseName": "Education And Agricultural Science",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1551,
+      "CourseName": "Education And Chemistry",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1553,
+      "CourseName": "Education And Computer",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1560,
+      "CourseName": "Education And Geography",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1568,
+      "CourseName": "Education And Mathematics",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1621,
+      "CourseName": "English Language",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1671,
+      "CourseName": "Environmental Biology",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1700,
+      "CourseName": "Fisheries",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1711,
+      "CourseName": "Food Science And Technology",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1721,
+      "CourseName": "French",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1767,
+      "CourseName": "Geography",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1786,
+      "CourseName": "Geology",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1830,
+      "CourseName": "History",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1965,
+      "CourseName": "Library And Information Science",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1994,
+      "CourseName": "Mass Communication",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1998,
+      "CourseName": "Mathematics",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 2030,
+      "CourseName": "Microbiology",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 2086,
+      "CourseName": "Physics",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 2104,
+      "CourseName": "Political Science",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 2132,
+      "CourseName": "Public Administration",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 2171,
+      "CourseName": "Sociology",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 2206,
+      "CourseName": "Sport Science And Health Education",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    }
+  ]

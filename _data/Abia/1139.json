@@ -1,0 +1,188 @@
+[
+  {
+    "CourseId": 1245,
+    "CourseName": "Accountancy",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2291,
+    "CourseName": "Agricultural Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1349,
+    "CourseName": "Banking And Finance",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1352,
+    "CourseName": "Biochemistry",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1356,
+    "CourseName": "Biology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1371,
+    "CourseName": "Business Administration",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1387,
+    "CourseName": "Chemistry",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1423,
+    "CourseName": "Civil Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1448,
+    "CourseName": "Computer Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1601,
+    "CourseName": "Electrical /Electronics Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1680,
+    "CourseName": "Estate Management",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1786,
+    "CourseName": "Geology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1867,
+    "CourseName": "Hotel Management And Tourism",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1868,
+    "CourseName": "Human Anatomy",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 3312,
+    "CourseName": "Human Physiology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1911,
+    "CourseName": "Industrial Relations And Personnel Management",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1921,
+    "CourseName": "Insurance",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1991,
+    "CourseName": "Marketing",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1994,
+    "CourseName": "Mass Communication",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1998,
+    "CourseName": "Mathematics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2012,
+    "CourseName": "Mechanical Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2018,
+    "CourseName": "Medical Biochemistry",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2025,
+    "CourseName": "Medicine And Surgery",
+    "CGPA_Scale": "5.00",
+    "Special": 1
+  },
+  {
+    "CourseId": 2030,
+    "CourseName": "Microbiology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2055,
+    "CourseName": "Nursing BSc.",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2086,
+    "CourseName": "Physics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2144,
+    "CourseName": "Quantity Surveying",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2171,
+    "CourseName": "Sociology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2207,
+    "CourseName": "Statistics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2212,
+    "CourseName": "Surveying And Geo-Informatics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2246,
+    "CourseName": "Urban And Regional Planning",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  }
+]

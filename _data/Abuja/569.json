@@ -1,0 +1,122 @@
+[
+  {
+    "CourseId": 1247,
+    "CourseName": "Accountancy/Finance",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1349,
+    "CourseName": "Banking And Finance",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1356,
+    "CourseName": "Biology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1363,
+    "CourseName": "Biotechnology",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1371,
+    "CourseName": "Business Administration",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1387,
+    "CourseName": "Chemistry",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1423,
+    "CourseName": "Civil Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1444,
+    "CourseName": "Computer Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1448,
+    "CourseName": "Computer Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1510,
+    "CourseName": "Economics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1607,
+    "CourseName": "Electrical/Electronics Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1622,
+    "CourseName": "English Language And Literature",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1998,
+    "CourseName": "Mathematics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2012,
+    "CourseName": "Mechanical Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2025,
+    "CourseName": "Medicine And Surgery",
+    "CGPA_Scale": "5.00",
+    "Special": 1
+  },
+  {
+    "CourseId": 2073,
+    "CourseName": "Petroleum And Gas Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2086,
+    "CourseName": "Physics",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2107,
+    "CourseName": "Political Science And International Relations",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 3433,
+    "CourseName": "Public Health",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 3512,
+    "CourseName": "Software Engineering",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  }
+]

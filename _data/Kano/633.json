@@ -1,0 +1,26 @@
+[
+    {
+        "CourseId": 1279,
+        "CourseName": "Agricultural Engineering/Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1285,
+        "CourseName": "Agricultural Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1297,
+        "CourseName": "Animal Health And Production Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1718,
+        "CourseName": "Forestry Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

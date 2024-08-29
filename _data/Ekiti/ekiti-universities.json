@@ -1,0 +1,34 @@
+[
+    {
+        "InstitutionId": 1098,
+        "InstitutionName": "Afe Babalola University"
+    },
+    {
+        "InstitutionId": 1221,
+        "InstitutionName": "Bamidele Olumilua University of Education, Science and Technology"
+    },
+    {
+        "InstitutionId": 852,
+        "InstitutionName": "College Of Education, Ikere"
+    },
+    {
+        "InstitutionId": 650,
+        "InstitutionName": "Crown Polytechnics, Ado-Ekiti"
+    },
+    {
+        "InstitutionId": 1095,
+        "InstitutionName": "Ekiti State University"
+    },
+    {
+        "InstitutionId": 684,
+        "InstitutionName": "Federal Polytechnic, Ado-Ekiti"
+    },
+    {
+        "InstitutionId": 547,
+        "InstitutionName": "Federal University, Oye-Ekiti"
+    },
+    {
+        "InstitutionId": 701,
+        "InstitutionName": "Firstmark Innovation School Of Technology"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 1325,
+        "CourseName": "Arabic Medium",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1937,
+        "CourseName": "Islamic Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

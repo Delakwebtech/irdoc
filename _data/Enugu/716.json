@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 1797,
+        "CourseName": "Hardware Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2223,
+        "CourseName": "Telecommunication Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

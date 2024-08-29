@@ -1,0 +1,32 @@
+[
+  {
+    "CourseId": 1371,
+    "CourseName": "Business Administration",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1394,
+    "CourseName": "Christian Religious Knowledge/Studies",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1961,
+    "CourseName": "Law",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 3617,
+    "CourseName": "Nursing Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2057,
+    "CourseName": "Nursing/Nursing Science BSc.",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  }
+]

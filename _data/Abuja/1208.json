@@ -1,0 +1,20 @@
+[
+    {
+        "CourseId": 1248,
+        "CourseName": "Accounting",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1448,
+        "CourseName": "Computer Science",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3690,
+        "CourseName": "Environmental Studies and Resource Management ",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

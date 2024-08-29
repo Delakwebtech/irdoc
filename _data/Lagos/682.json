@@ -1,0 +1,26 @@
+[
+    {
+        "CourseId": 1707,
+        "CourseName": "Fisheries Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1988,
+        "CourseName": "Marine Engineering Technology",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 3365,
+        "CourseName": "Maritime Transport And Business Studies",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2050,
+        "CourseName": "Nautical Science",
+        "CGPA_Scale": "4.00",
+        "Special": 0
+    }
+]

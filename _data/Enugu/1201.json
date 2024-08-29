@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 1362,
+        "CourseName": "Biomedical Technology",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 2129,
+        "CourseName": "Prosthetics/Orthotics",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "CourseId": 3550,
+        "CourseName": "Chemistry Education",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    },
+    {
+        "CourseId": 1795,
+        "CourseName": "Guidance \u0026 Counselling",
+        "CGPA_Scale": "5.00",
+        "Special": 0
+    }
+]

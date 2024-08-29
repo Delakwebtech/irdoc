@@ -1,0 +1,62 @@
+[
+    {
+      "CourseId": 1423,
+      "CourseName": "Civil Engineering",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1605,
+      "CourseName": "Electrical Engineering",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 1987,
+      "CourseName": "Marine Engineering",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 3531,
+      "CourseName": "Marine Environment Management and Pollution Control",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 3536,
+      "CourseName": "Marine Science",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 3628,
+      "CourseName": "Marine Transport and Logistics Management",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 3565,
+      "CourseName": "Maritime Economics and Finance",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 2012,
+      "CourseName": "Mechanical Engineering",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 2073,
+      "CourseName": "Petroleum And Gas Engineering",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    },
+    {
+      "CourseId": 3625,
+      "CourseName": "Port Management",
+      "CGPA_Scale": "5.00",
+      "Special": 0
+    }
+  ]

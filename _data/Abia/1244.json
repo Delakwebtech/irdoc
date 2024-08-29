@@ -1,0 +1,26 @@
+[
+  {
+    "CourseId": 1352,
+    "CourseName": "Biochemistry",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1448,
+    "CourseName": "Computer Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 1834,
+    "CourseName": "History And Diplomatic Studies",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  },
+  {
+    "CourseId": 2104,
+    "CourseName": "Political Science",
+    "CGPA_Scale": "5.00",
+    "Special": 0
+  }
+]

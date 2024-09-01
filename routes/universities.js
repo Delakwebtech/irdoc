@@ -5,6 +5,6 @@ const {
 
 const router = express.Router();
 
-router.get('/:stateId', getUniversitiesByState);
+router.get('/institutions/:stateId', getUniversitiesByState);
 
 module.exports = router;

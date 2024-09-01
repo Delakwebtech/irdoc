@@ -1,32 +1,32 @@
 const ErrorResponse = require('../utils/errorResponse');
 
 const errorHandler = (err, req, res, next) => {
-    let error = { ...err };
+
+    let error = { ...err }
 
     error.message = err.message;
 
-    // Log to console for the dev
+    //  Log to console for the dev
     console.log(err);
 
-    // MySQL duplicate key error
-    if (err.code === 'ER_DUP_ENTRY') {
-        const message = `Duplicate key error: ${err.message}`;
-        error = new ErrorResponse(message, 400);
-    }
+    // Mongoose bad ObjectId
+    if(err.name === 'CastError') {
+        const message = `Resource not found with id ${err.value}`;
+        error = new ErrorResponse(message, 404);
+    };
 
-    // MySQL syntax error
-    if (err.code === 'ER_PARSE_ERROR') {
-        const message = `Syntax error in SQL query: ${err.message}`;
+    // Mongoose duplicate key
+    if(err.name === 'MongoServerError') {
+        const message = 'Duplicate field value entered';
         error = new ErrorResponse(message, 400);
-    }
+    };
 
-    // MySQL foreign key constraint error
-    if (err.code === 'ER_ROW_IS_REFERENCED') {
-        const message = `Foreign key constraint error: ${err.message}`;
+    // Mongoose validation error
+    if(err.name === 'ValidationError') {
+        const message = Object.values(err.errors).map(val => val.message);
         error = new ErrorResponse(message, 400);
-    }
+    };
 
-    // Handle other MySQL errors or default to server error
     res.status(error.statusCode || 500).json({
         success: false,
         error: error.message || 'Server Error'

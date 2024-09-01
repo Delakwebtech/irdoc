@@ -1,33 +1,27 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/db');
-const University = require('./University');
+const mongoose = require("mongoose");
+const AutoIncrement = require("mongoose-sequence")(mongoose);
 
-const Course = sequelize.define(
-  'Course',
+const CourseSchema = new mongoose.Schema(
   {
     CourseId: {
-      type: DataTypes.INTEGER,
-      primaryKey: true,
-      autoIncrement: true,
+      type: Number,
+      unique: true,
     },
     CourseName: {
-      type: DataTypes.STRING,
-      allowNull: false,
+      type: String,
+      required: true,
     },
     CGPA_Scale: {
-      type: DataTypes.DECIMAL(3, 2),
-      allowNull: false,
+      type: mongoose.Schema.Types.Decimal128,
+      required: true,
     },
     Special: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: false,
+      type: Boolean,
+      default: false,
     },
     InstitutionId: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: University,
-        key: 'InstitutionId',
-      },
+      type: Number,
+      required: true,
     },
   },
   {
@@ -35,8 +29,7 @@ const Course = sequelize.define(
   }
 );
 
-// Association
-// University.hasMany(Course, { foreignKey: 'InstitutionId' });
-// Course.belongsTo(University, { foreignKey: 'InstitutionId' });
+// Apply auto-increment plugin to CourseId
+CourseSchema.plugin(AutoIncrement, { inc_field: "CourseId" });
 
-module.exports = Course;
+module.exports = mongoose.model("Course", CourseSchema);

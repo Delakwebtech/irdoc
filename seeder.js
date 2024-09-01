@@ -1,23 +1,23 @@
-const fs = require('fs');
-const dotenv = require('dotenv');
+const fs = require("fs");
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
 
 // Load environment variables
-dotenv.config({ path: './config/config.env' });
+dotenv.config({ path: "./config/config.env" });
 
 // Load models
-const State = require('./models/State');
-const University = require('./models/University');
-const Course = require('./models/Course');
+const State = require("./models/State");
+const University = require("./models/University");
+const Course = require("./models/Course");
+
+// Set mongoose `strictQuery` option to suppress the deprecation warning
+mongoose.set("strictQuery", true);
 
 // Connect to the database
-const sequelize = require('./config/db');
-sequelize
-  .authenticate()
-  .then(() => console.log('Database connected successfully'))
-  .catch((err) => {
-    console.error('Unable to connect to the database:', err);
-    process.exit(1);
-  });
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 // Store states that encounter errors
 const errorStates = [];
@@ -26,8 +26,12 @@ const errorStates = [];
 const getStateIds = async (states) => {
   const stateIds = {};
   for (const stateName of states) {
-    const state = await State.create({ stateName });
-    stateIds[stateName] = state.stateId;
+    // Check if the state already exists
+    let state = await State.findOne({ stateName });
+    if (!state) {
+      state = await State.create({ stateName });
+    }
+    stateIds[stateName] = state.stateId; // Use stateId from State model
   }
   return stateIds;
 };
@@ -39,7 +43,7 @@ const getUniversityIds = async (stateIds, stateName) => {
     universitiesData = JSON.parse(
       fs.readFileSync(
         `${__dirname}/_data/${stateName}/${stateName.toLowerCase()}-universities.json`,
-        'utf-8'
+        "utf-8"
       )
     );
   } catch (err) {
@@ -51,7 +55,6 @@ const getUniversityIds = async (stateIds, stateName) => {
   const universityIds = {};
   for (const universityData of universitiesData) {
     const university = await University.create({
-      InstitutionId: universityData.InstitutionId,
       InstitutionName: universityData.InstitutionName,
       stateId: stateIds[stateName],
     });
@@ -67,7 +70,7 @@ const createCourses = async (universityId, stateName) => {
     coursesData = JSON.parse(
       fs.readFileSync(
         `${__dirname}/_data/${stateName}/${universityId}.json`,
-        'utf-8'
+        "utf-8"
       )
     );
   } catch (err) {
@@ -80,7 +83,9 @@ const createCourses = async (universityId, stateName) => {
   }
 
   if (!Array.isArray(coursesData)) {
-    console.error(`Invalid course data format for state ${stateName} and university ID ${universityId}`);
+    console.error(
+      `Invalid course data format for state ${stateName} and university ID ${universityId}`
+    );
     errorStates.push(stateName);
     return;
   }
@@ -88,23 +93,16 @@ const createCourses = async (universityId, stateName) => {
   for (const courseData of coursesData) {
     try {
       await Course.create({
-        CourseId: courseData.CourseId,
         CourseName: courseData.CourseName,
         CGPA_Scale: courseData.CGPA_Scale,
         Special: courseData.Special,
         InstitutionId: universityId,
       });
     } catch (err) {
-      if (err.name === 'SequelizeUniqueConstraintError') {
-        console.error(
-          `Duplicate error in file: ${__dirname}/_data/${stateName}/${universityId}.json for CourseId: ${courseData.CourseId}`
-        );
-      } else {
-        console.error(
-          `Error in file: ${__dirname}/_data/${stateName}/${universityId}.json`,
-          err
-        );
-      }
+      console.error(
+        `Error in file: ${__dirname}/_data/${stateName}/${universityId}.json`,
+        err
+      );
     }
   }
 };
@@ -113,38 +111,38 @@ const createCourses = async (universityId, stateName) => {
 const importData = async () => {
   try {
     const states = [
-      'Abia',
-      'Abuja',
-      'Adamawa',
-      'Akwa-Ibom',
-      'Anambra',
-      'Bauchi',
-      'Bayelsa',
-      'Benue',
-      'Borno',
-      'Cross-River',
-      'Delta',
-      'Ebonyi',
-      'Edo',
-      'Ekiti',
-      'Enugu',
-      'Gombe',
-      'Imo',
-      'Jigawa',
-      'Kaduna',
-      'Kano',
-      'Kastina',
-      'Kebbi',
-      'Kogi',
-      'Kwara',
-      'Lagos',
-      'Nassarawa',
-      'Niger',
-      'Ogun',
-      'Ondo',
-      'Osun',
-      'Oyo',
-      'Pleatue',
+      "Abia",
+      "Abuja",
+      "Adamawa",
+      "Akwa-Ibom",
+      "Anambra",
+      "Bauchi",
+      "Bayelsa",
+      "Benue",
+      "Borno",
+      "Cross-River",
+      "Delta",
+      "Ebonyi",
+      "Edo",
+      "Ekiti",
+      "Enugu",
+      "Gombe",
+      "Imo",
+      "Jigawa",
+      "Kaduna",
+      "Kano",
+      "Kastina",
+      "Kebbi",
+      "Kogi",
+      "Kwara",
+      "Lagos",
+      "Nassarawa",
+      "Niger",
+      "Ogun",
+      "Ondo",
+      "Osun",
+      "Oyo",
+      "Pleatue",
     ];
 
     const stateIds = await getStateIds(states);
@@ -158,7 +156,7 @@ const importData = async () => {
       }
     }
 
-    console.log('Data Imported...');
+    console.log("Data Imported...");
     process.exit();
   } catch (err) {
     console.error(err);
@@ -169,11 +167,11 @@ const importData = async () => {
 // Delete data from the database
 const deleteData = async () => {
   try {
-    await State.destroy({ where: {} });
-    await University.destroy({ where: {} });
-    await Course.destroy({ where: {} });
+    await State.deleteMany({});
+    await University.deleteMany({});
+    await Course.deleteMany({});
 
-    console.log('Data Destroyed...');
+    console.log("Data Destroyed...");
     process.exit();
   } catch (err) {
     console.error(err);
@@ -182,8 +180,8 @@ const deleteData = async () => {
 };
 
 // Execute based on command-line argument
-if (process.argv[2] === '-i') {
+if (process.argv[2] === "-i") {
   importData();
-} else if (process.argv[2] === '-d') {
+} else if (process.argv[2] === "-d") {
   deleteData();
 }

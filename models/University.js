@@ -1,34 +1,27 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/db');
-const State = require('./State');
+const mongoose = require("mongoose");
+const AutoIncrement = require("mongoose-sequence")(mongoose);
 
-const University = sequelize.define(
-  'University',
+const UniversitySchema = new mongoose.Schema(
   {
     InstitutionId: {
-      type: DataTypes.INTEGER,
-      primaryKey: true,
-      autoIncrement: true,
+      type: Number,
+      unique: true,
     },
     InstitutionName: {
-      type: DataTypes.STRING,
-      allowNull: true,
+      type: String,
+      required: true,
     },
     stateId: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: State,
-        key: 'stateId',
-      },
+      type: Number,
+      required: true,
     },
   },
   {
-    timestamps: false, 
+    timestamps: false,
   }
 );
 
-// Association
-// State.hasMany(University, { foreignKey: 'stateId' });
-// University.belongsTo(State, { foreignKey: 'stateId' });
+// Apply auto-increment plugin to InstitutionId
+UniversitySchema.plugin(AutoIncrement, { inc_field: "InstitutionId" });
 
-module.exports = University;
+module.exports = mongoose.model("University", UniversitySchema);

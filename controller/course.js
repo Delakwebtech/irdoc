@@ -8,13 +8,21 @@ const Course = require('../models/Course');
 exports.getCoursesByUniversity = asyncHandler(async (req, res) => {
   const { universityId } = req.params;
 
-  const courses = await Course.findAll({
+  const courses = await Course.find({
     where: { InstitutionId: universityId },
-  });
+  }).select('CourseId CourseName CGPA_Scale Special');
 
-  if (!courses || courses.length === 0) {
+  
+  const transformedCourses = courses.map(course => ({
+    CourseId: course.CourseId,
+    CourseName: course.CourseName,
+    CGPA_Scale: course.CGPA_Scale.toString(),
+    Special: course.Special
+  }));
+
+  if (!transformedCourses || transformedCourses.length === 0) {
     return next(new ErrorResponse(`No Course found in state with ID ${universityId}`, 404));
   }
 
-  res.status(200).json({ success: true, data: courses });
+  res.status(200).json({ success: true, data: transformedCourses });
 });

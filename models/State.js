@@ -1,19 +1,23 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/db');
+const mongoose = require("mongoose");
+const AutoIncrement = require("mongoose-sequence")(mongoose);
 
-const State = sequelize.define('State', {
-  stateId: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
+const StateSchema = new mongoose.Schema(
+  {
+    stateId: {
+      type: Number,
+      unique: true,
+    },
+    stateName: {
+      type: String,
+      required: true,
+    },
   },
-  stateName: {
-    type: DataTypes.STRING,
-    allowNull: true,
-  },
-}, 
-{
-  timestamps: false, 
-});
+  {
+    timestamps: false,
+  }
+);
 
-module.exports = State;
+// Apply auto-increment plugin to stateId
+StateSchema.plugin(AutoIncrement, { inc_field: "stateId" });
+
+module.exports = mongoose.model("State", StateSchema);

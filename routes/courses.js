@@ -5,7 +5,7 @@ const {
 
 const router = express.Router();
 
-router.get('/institution/:universityId', getCoursesByUniversity);
+router.get('/courseslist/:universityId', getCoursesByUniversity);
 
 
 module.exports = router;

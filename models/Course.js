@@ -20,7 +20,7 @@ const CourseSchema = new mongoose.Schema(
       default: false,
     },
     InstitutionId: {
-      type: Number,
+      type: String,
       required: true,
     },
   },

@@ -58,7 +58,7 @@ const getUniversityIds = async (stateIds, stateName) => {
       InstitutionName: universityData.InstitutionName,
       stateId: stateIds[stateName],
     });
-    universityIds[universityData.InstitutionId] = university.InstitutionId;
+    universityIds[universityData.InstitutionId] = universityData.InstitutionId
   }
   return universityIds;
 };

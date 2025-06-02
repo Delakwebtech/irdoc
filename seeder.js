@@ -66,26 +66,23 @@ const getUniversityIds = async (stateIds, stateName) => {
 // Function to create courses
 const createCourses = async (universityId, stateName) => {
   let coursesData;
+  const filePath = `${__dirname}/_data/${stateName}/${universityId}.json`;
+
   try {
-    coursesData = JSON.parse(
-      fs.readFileSync(
-        `${__dirname}/_data/${stateName}/${universityId}.json`,
-        "utf-8"
-      )
-    );
+    if (!fs.existsSync(filePath)) {
+      console.warn(`Course file not found for ${stateName}/${universityId}.json. Skipping...`);
+      return;
+    }
+
+    coursesData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
   } catch (err) {
-    console.error(
-      `Error reading or parsing JSON for courses in state ${stateName}:`,
-      err
-    );
+    console.error(`Error reading/parsing JSON for courses in state ${stateName}:`, err);
     errorStates.push(stateName);
     return;
   }
 
   if (!Array.isArray(coursesData)) {
-    console.error(
-      `Invalid course data format for state ${stateName} and university ID ${universityId}`
-    );
+    console.error(`Invalid course data format for state ${stateName} and university ID ${universityId}`);
     errorStates.push(stateName);
     return;
   }
@@ -99,10 +96,7 @@ const createCourses = async (universityId, stateName) => {
         InstitutionId: universityId,
       });
     } catch (err) {
-      console.error(
-        `Error in file: ${__dirname}/_data/${stateName}/${universityId}.json`,
-        err
-      );
+      console.error(`Error saving course in file ${filePath}:`, err);
     }
   }
 };

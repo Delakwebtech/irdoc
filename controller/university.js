@@ -9,10 +9,8 @@ exports.getUniversitiesByState = asyncHandler(async (req, res) => {
   const { stateId } = req.params;
 
   const universities = await University.find({
-    where: {
-      stateId
-    }
-  }).select('InstitutionId InstitutionName');
+     stateId 
+    }).select('InstitutionId InstitutionName');
 
   const transformeduniversities = universities.map(university => ({
     InstitutionId: university.InstitutionId,

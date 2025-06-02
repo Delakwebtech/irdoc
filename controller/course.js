@@ -9,7 +9,7 @@ exports.getCoursesByUniversity = asyncHandler(async (req, res) => {
   const { universityId } = req.params;
 
   const courses = await Course.find({
-    where: { InstitutionId: universityId },
+    InstitutionId: universityId
   }).select('CourseId CourseName CGPA_Scale Special');
 
   

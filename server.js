@@ -30,8 +30,6 @@ if (process.env.NODE_ENV === 'development') {
 
 // Mount routers
 app.use('/undergraduate', state, university, course);
-// app.use('/universities', university);
-// app.use('/courses', course);
 
 app.use(errorHandler);
 

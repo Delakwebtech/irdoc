@@ -7,7 +7,7 @@ const Course = require("../models/Course");
 // @desc    Get all States with Universities and Courses
 // @route   GET /api/v1/states
 // @access  Public
-exports.getStatesWithUniversitiesAndCourses = asyncHandler(async (req, res) => {
+exports.getStatesWithUniversitiesAndCourses = asyncHandler(async (req, res, next) => {
   const states = await State.find().select(
     "stateId stateName"
   );

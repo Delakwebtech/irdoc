@@ -5,7 +5,7 @@ const Course = require('../models/Course');
 // @desc    Get all Courses
 // @route   GET /api/v1/courses
 // @access  Public
-exports.getCoursesByUniversity = asyncHandler(async (req, res) => {
+exports.getCoursesByUniversity = asyncHandler(async (req, res, next) => {
   const { universityId } = req.params;
 
   const courses = await Course.find({

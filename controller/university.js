@@ -14,12 +14,12 @@ const getInstitutionsByCategory = async (matcherFn) => {
 
   const allStates = await State.find();
   for (const state of allStates) {
-    const institutions = await Institution.find({ StateId: state.StateId.toString() });
+    const institutions = await University.find({ stateId: state.stateId.toString() });
 
     const matched = institutions.filter((inst) => matcherFn(inst.InstitutionName));
     if (matched.length > 0) {
       categorizedList.push({
-        state: state.StateName,
+        state: state.stateName,
         institutions: matched
       });
     }
@@ -32,18 +32,19 @@ const getInstitutionsByCategory = async (matcherFn) => {
 // @route   GET /api/v1/undergraduate/institutions/universities
 // @access  Public
 exports.getUniversities = asyncHandler(async (req, res, next) => {
-  const result = await getInstitutionsByCategory(name =>
-    universities.includes(name) || name.includes('University')
+  // Fetch all institutions
+  const allInstitutions = await University.find();
+
+  // Filter only those that match the name
+  const result = allInstitutions.filter(inst =>
+    universities.includes(inst.InstitutionName) || inst.InstitutionName.includes('University')
   );
 
-  if (!result) {
-    return next(
-      new ErrorResponse('No university found', 404)
-    );
+  if (!result.length) {
+    return next(new ErrorResponse('No university found', 404));
   }
 
   res.status(200).json({ success: true, data: result });
-
 });
 
 // @desc    Get all Polytechnics in Nigeria

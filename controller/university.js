@@ -1,12 +1,12 @@
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/async');
-const State = require('./models/State');
+const State = require('../models/State');
 const University = require('../models/University');
 
-const universities = require('../_data/universities.json');
-const polytechnics = require('../_data/polytechnics.json');
-const collegeOfEducation = require('../_data/collegesOfEducation.json');
-const healthSciences = require('../_data/healthSciences.json');
+const universities = require('../_data/universities');
+const polytechnics = require('../_data/polytechnics');
+const collegeOfEducation = require('../_data/collegeOfEducation');
+const healthSciences = require('../_data/healthSciences');
 
 // Reusable function
 const getInstitutionsByCategory = async (matcherFn) => {

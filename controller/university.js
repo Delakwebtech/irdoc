@@ -1,7 +1,7 @@
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/async');
 const State = require('../models/State');
-const University = require('../models/University');
+const Institution = require('../models/University');
 
 const universities = require('../_data/universities');
 const polytechnics = require('../_data/polytechnics');
@@ -14,7 +14,7 @@ const getInstitutionsByCategory = async (matcherFn) => {
 
   const allStates = await State.find();
   for (const state of allStates) {
-    const institutions = await University.find({ stateId: state.stateId.toString() });
+    const institutions = await Institution.find({ stateId: state.stateId.toString() });
 
     const matched = institutions.filter((inst) => matcherFn(inst.InstitutionName));
     if (matched.length > 0) {
@@ -33,10 +33,10 @@ const getInstitutionsByCategory = async (matcherFn) => {
 // @access  Public
 exports.getUniversities = asyncHandler(async (req, res, next) => {
   // Fetch all institutions
-  const allInstitutions = await University.find();
+  const allUniversities = await Institution.find();
 
   // Filter only those that match the name
-  const result = allInstitutions.filter(inst =>
+  const result = allUniversities.filter(inst =>
     universities.includes(inst.InstitutionName) || inst.InstitutionName.includes('University')
   );
 
@@ -51,11 +51,15 @@ exports.getUniversities = asyncHandler(async (req, res, next) => {
 // @route   GET /api/v1/undergraduate/institutions/polytechnics
 // @access  Public
 exports.getPolytechnics = asyncHandler(async (req, res, next) => {
-  const result = await getInstitutionsByCategory(name =>
-    polytechnics.includes(name) ||
-    name.includes('Polytechnic') ||
-    name.includes('Polytehnic') ||
-    name.includes('Poly')
+  // Fetch all polytechnics
+  const allPolytechnics = await Institution.find();
+  
+  // Filter only those that match the name
+  const result = allPolytechnics.filter(inst =>
+    polytechnics.includes(inst.InstitutionName) ||
+    inst.InstitutionName.includes('Polytechnic') ||
+    inst.InstitutionName.includes('Polytehnic') ||
+    inst.InstitutionName.includes('Poly')
   );
 
   if (!result) {

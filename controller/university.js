@@ -62,7 +62,7 @@ exports.getPolytechnics = asyncHandler(async (req, res, next) => {
     inst.InstitutionName.includes('Poly')
   );
 
-  if (!result) {
+  if (!result.length) {
     return next(
       new ErrorResponse('No polytechnics found', 404)
     );
@@ -72,37 +72,48 @@ exports.getPolytechnics = asyncHandler(async (req, res, next) => {
   
 });
 
-// Colleges of Education
-exports.getColleges = async (req, res) => {
-  try {
-    const result = await getInstitutionsByCategory(name =>
-      collegeOfEducation.includes(name) || name.includes('Education')
-    );
+// @desc    Get all Colleges of Education in Nigeria
+// @route   GET /api/v1/undergraduate/institutions/colleges
+// @access  Public
+exports.getColleges = asyncHandler(async (req, res, next) => {
+  // Fetch all polytechnics
+  const allColleges = await Institution.find();
 
-    res.status(200).json({ success: true, category: 'colleges of education', data: result });
-  } catch (err) {
-    console.error('Error fetching colleges:', err.message);
-    res.status(500).json({ success: false, message: 'Server error' });
+  // Filter only those that match the name
+  const result = allColleges.filter(inst =>
+    collegeOfEducation.includes(inst.InstitutionName) || inst.InstitutionName.includes('Education')
+  );
+
+  if (!result.length) {
+    return next(new ErrorResponse('No colleges of education found', 404));
   }
-};
 
-// Health Sciences
-exports.getHealthSciences = async (req, res) => {
-  try {
-    const result = await getInstitutionsByCategory(name =>
-      healthSciences.includes(name) ||
-      name.includes('Nursing') ||
-      name.includes('Medical') ||
-      name.includes('Midwifery') ||
-      name.includes('Health')
-    );
+  res.status(200).json({ success: true, data: result });
+  
+});
 
-    res.status(200).json({ success: true, category: 'health sciences', data: result });
-  } catch (err) {
-    console.error('Error fetching health sciences:', err.message);
-    res.status(500).json({ success: false, message: 'Server error' });
+// @desc    Get all Health Sciences in Nigeria
+// @route   GET /api/v1/undergraduate/institutions/health
+// @access  Public
+exports.getHealthSciences = asyncHandler(async (req, res, next) => {
+  // Fetch all polytechnics
+  const allColleges = await Institution.find();
+
+  // Filter only those that match the name
+  const result = allColleges.filter(inst =>
+    healthSciences.includes(inst.InstitutionName) ||
+    inst.InstitutionName.includes('Nursing') ||
+    inst.InstitutionName.includes('Medical') ||
+    inst.InstitutionName.includes('Midwifery') ||
+    inst.InstitutionName.includes('Health')
+  );
+
+  if (!result.length) {
+    return next(new ErrorResponse('No colleges of education found', 404));
   }
-};
+
+  res.status(200).json({ success: true, data: result });
+});
 
 // @desc    Get all Universities with Courses
 // @route   GET /api/v1/undergraduate/institutions/:stateId

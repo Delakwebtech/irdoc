@@ -135,7 +135,7 @@ exports.getOtherInstitutions = asyncHandler(async (req, res, next) => {
 exports.getUniversitiesByState = asyncHandler(async (req, res, next) => {
   const { stateId } = req.params;
 
-  const universities = await University.find({
+  const universities = await Institution.find({
      stateId 
     }).select('InstitutionId InstitutionName');
 

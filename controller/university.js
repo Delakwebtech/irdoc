@@ -8,26 +8,6 @@ const polytechnics = require('../_data/polytechnics');
 const collegeOfEducation = require('../_data/collegeOfEducation');
 const healthSciences = require('../_data/healthSciences');
 
-// Reusable function
-const getInstitutionsByCategory = async (matcherFn) => {
-  const categorizedList = [];
-
-  const allStates = await State.find();
-  for (const state of allStates) {
-    const institutions = await Institution.find({ stateId: state.stateId.toString() });
-
-    const matched = institutions.filter((inst) => matcherFn(inst.InstitutionName));
-    if (matched.length > 0) {
-      categorizedList.push({
-        state: state.stateName,
-        institutions: matched
-      });
-    }
-  }
-
-  return categorizedList;
-};
-
 // @desc    Get all Universities in Nigeria
 // @route   GET /api/v1/undergraduate/institutions/universities
 // @access  Public
@@ -114,6 +94,40 @@ exports.getHealthSciences = asyncHandler(async (req, res, next) => {
 
   res.status(200).json({ success: true, data: result });
 });
+
+// @desc    Get all other institutions not in universities, polytechnics, colleges or health sciences
+// @route   GET /api/v1/undergraduate/institutions/others
+// @access  Public
+exports.getOtherInstitutions = asyncHandler(async (req, res, next) => {
+  // Fetch all institutions
+  const allInstitutions = await Institution.find();
+
+  // Filter out known categories
+  const result = allInstitutions.filter(inst => {
+    const name = inst.InstitutionName;
+
+    const isUniversity = universities.includes(name) || name.includes('University');
+    const isPolytechnic = polytechnics.includes(name) 
+      || name.includes('Polytechnic') 
+      || name.includes('Polytehnic') 
+      || name.includes('Poly');
+    const isCollege = collegeOfEducation.includes(name) || name.includes('Education');
+    const isHealth = healthSciences.includes(name) 
+      || name.includes('Nursing') 
+      || name.includes('Medical') 
+      || name.includes('Midwifery') 
+      || name.includes('Health');
+
+    return !(isUniversity || isPolytechnic || isCollege || isHealth);
+  });
+
+  if (!result.length) {
+    return next(new ErrorResponse('No other institutions found', 404));
+  }
+
+  res.status(200).json({ success: true, data: result });
+});
+
 
 // @desc    Get all Universities with Courses
 // @route   GET /api/v1/undergraduate/institutions/:stateId

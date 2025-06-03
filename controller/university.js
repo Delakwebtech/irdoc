@@ -10,7 +10,6 @@ const healthSciences = require('../_data/healthSciences');
 
 // Reusable function
 const getInstitutionsByCategory = async (matcherFn) => {
-  await connectDB();
   const categorizedList = [];
 
   const allStates = await State.find();

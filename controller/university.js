@@ -1,6 +1,6 @@
 const ErrorResponse = require('../utils/errorResponse');
+const categorizeByState = require('../utils/filterByCategory');
 const asyncHandler = require('../middleware/async');
-const State = require('../models/State');
 const Institution = require('../models/University');
 
 const universities = require('../_data/universities');
@@ -12,16 +12,13 @@ const healthSciences = require('../_data/healthSciences');
 // @route   GET /api/v1/undergraduate/institutions/universities
 // @access  Public
 exports.getUniversities = asyncHandler(async (req, res, next) => {
-  // Fetch all institutions
-  const allUniversities = await Institution.find();
-
-  // Filter only those that match the name
-  const result = allUniversities.filter(inst =>
-    universities.includes(inst.InstitutionName) || inst.InstitutionName.includes('University')
+  
+  const result = await categorizeByState('Universities', name =>
+    universities.includes(name) || name.includes('University')
   );
 
   if (!result.length) {
-    return next(new ErrorResponse('No university found', 404));
+    return next(new ErrorResponse('No universities found', 404));
   }
 
   res.status(200).json({ success: true, data: result });
@@ -31,15 +28,12 @@ exports.getUniversities = asyncHandler(async (req, res, next) => {
 // @route   GET /api/v1/undergraduate/institutions/polytechnics
 // @access  Public
 exports.getPolytechnics = asyncHandler(async (req, res, next) => {
-  // Fetch all polytechnics
-  const allPolytechnics = await Institution.find();
   
-  // Filter only those that match the name
-  const result = allPolytechnics.filter(inst =>
-    polytechnics.includes(inst.InstitutionName) ||
-    inst.InstitutionName.includes('Polytechnic') ||
-    inst.InstitutionName.includes('Polytehnic') ||
-    inst.InstitutionName.includes('Poly')
+  const result = await categorizeByState('Polytechnics', name =>
+    polytechnics.includes(name) ||
+    name.includes('Polytechnic') ||
+    name.includes('Polytehnic') ||
+    name.includes('Poly')
   );
 
   if (!result.length) {
@@ -56,12 +50,9 @@ exports.getPolytechnics = asyncHandler(async (req, res, next) => {
 // @route   GET /api/v1/undergraduate/institutions/colleges
 // @access  Public
 exports.getColleges = asyncHandler(async (req, res, next) => {
-  // Fetch all polytechnics
-  const allColleges = await Institution.find();
-
-  // Filter only those that match the name
-  const result = allColleges.filter(inst =>
-    collegeOfEducation.includes(inst.InstitutionName) || inst.InstitutionName.includes('Education')
+  
+  const result = await categorizeByState('Colleges', name =>
+    collegeOfEducation.includes(name) || name.includes('Education')
   );
 
   if (!result.length) {
@@ -76,16 +67,13 @@ exports.getColleges = asyncHandler(async (req, res, next) => {
 // @route   GET /api/v1/undergraduate/institutions/health
 // @access  Public
 exports.getHealthSciences = asyncHandler(async (req, res, next) => {
-  // Fetch all polytechnics
-  const allColleges = await Institution.find();
-
-  // Filter only those that match the name
-  const result = allColleges.filter(inst =>
-    healthSciences.includes(inst.InstitutionName) ||
-    inst.InstitutionName.includes('Nursing') ||
-    inst.InstitutionName.includes('Medical') ||
-    inst.InstitutionName.includes('Midwifery') ||
-    inst.InstitutionName.includes('Health')
+  
+  const result = await categorizeByState('Health Sciences', name =>
+    healthSciences.includes(name) ||
+    name.includes('Nursing') ||
+    name.includes('Medical') ||
+    name.includes('Midwifery') ||
+    name.includes('Health')
   );
 
   if (!result.length) {
@@ -99,24 +87,19 @@ exports.getHealthSciences = asyncHandler(async (req, res, next) => {
 // @route   GET /api/v1/undergraduate/institutions/others
 // @access  Public
 exports.getOtherInstitutions = asyncHandler(async (req, res, next) => {
-  // Fetch all institutions
-  const allInstitutions = await Institution.find();
-
-  // Filter out known categories
-  const result = allInstitutions.filter(inst => {
-    const name = inst.InstitutionName;
-
+  
+  const result = await categorizeByState('Other Institutions', name => {
     const isUniversity = universities.includes(name) || name.includes('University');
-    const isPolytechnic = polytechnics.includes(name) 
-      || name.includes('Polytechnic') 
-      || name.includes('Polytehnic') 
-      || name.includes('Poly');
+    const isPolytechnic = polytechnics.includes(name) ||
+      name.includes('Polytechnic') ||
+      name.includes('Polytehnic') ||
+      name.includes('Poly');
     const isCollege = collegeOfEducation.includes(name) || name.includes('Education');
-    const isHealth = healthSciences.includes(name) 
-      || name.includes('Nursing') 
-      || name.includes('Medical') 
-      || name.includes('Midwifery') 
-      || name.includes('Health');
+    const isHealth = healthSciences.includes(name) ||
+      name.includes('Nursing') ||
+      name.includes('Medical') ||
+      name.includes('Midwifery') ||
+      name.includes('Health');
 
     return !(isUniversity || isPolytechnic || isCollege || isHealth);
   });

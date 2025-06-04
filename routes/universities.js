@@ -5,7 +5,7 @@ const {
   getColleges,
   getHealthSciences,
   getOtherInstitutions,
-  // getUniversitiesByState,
+  getUniversitiesByState,
 } = require('../controller/university');
 
 const router = express.Router();
@@ -15,6 +15,6 @@ router.get('/institutions/polytechnics', getPolytechnics);
 router.get('/institutions/colleges', getColleges);
 router.get('/institutions/health', getHealthSciences);
 router.get('/institutions/others', getOtherInstitutions);
-// router.get('/institutions/:stateId', getUniversitiesByState);
+router.get('/institutions/:stateId', getUniversitiesByState);
 
 module.exports = router;

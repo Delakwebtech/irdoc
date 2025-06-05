@@ -31,7 +31,7 @@ const getStateIds = async (states) => {
     if (!state) {
       state = await State.create({ stateName });
     }
-    stateIds[stateName] = state.stateId; // Use stateId from State model
+    stateIds[stateName] = state.stateId;
   }
   return stateIds;
 };
@@ -56,21 +56,22 @@ const getUniversityIds = async (stateIds, stateName) => {
   for (const universityData of universitiesData) {
     const university = await University.create({
       InstitutionName: universityData.InstitutionName,
+      InstitutionId: universityData.InstitutionId,
       stateId: stateIds[stateName],
     });
-    universityIds[universityData.InstitutionId] = universityData.InstitutionId
+    universityIds[universityData.InstitutionId] = university.InstitutionId
   }
   return universityIds;
 };
 
 // Function to create courses
-const createCourses = async (universityId, stateName) => {
+const createCourses = async (InstitutionId, stateName) => {
   let coursesData;
-  const filePath = `${__dirname}/_data/${stateName}/${universityId}.json`;
+  const filePath = `${__dirname}/_data/${stateName}/${InstitutionId}.json`;
 
   try {
     if (!fs.existsSync(filePath)) {
-      console.warn(`Course file not found for ${stateName}/${universityId}.json. Skipping...`);
+      console.warn(`Course file not found for ${stateName}/${InstitutionId}.json. Skipping...`);
       return;
     }
 
@@ -82,7 +83,7 @@ const createCourses = async (universityId, stateName) => {
   }
 
   if (!Array.isArray(coursesData)) {
-    console.error(`Invalid course data format for state ${stateName} and university ID ${universityId}`);
+    console.error(`Invalid course data format for state ${stateName} and InstitutionId ${InstitutionId}`);
     errorStates.push(stateName);
     return;
   }
@@ -90,10 +91,11 @@ const createCourses = async (universityId, stateName) => {
   for (const courseData of coursesData) {
     try {
       await Course.create({
+        CourseId: courseData.CourseId,           // <- Make sure your Course model supports this field
         CourseName: courseData.CourseName,
         CGPA_Scale: courseData.CGPA_Scale,
         Special: courseData.Special,
-        InstitutionId: universityId,
+        InstitutionId: InstitutionId,
       });
     } catch (err) {
       console.error(`Error saving course in file ${filePath}:`, err);

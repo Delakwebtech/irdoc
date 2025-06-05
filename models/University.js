@@ -12,7 +12,7 @@ const UniversitySchema = new mongoose.Schema(
       required: true,
     },
     stateId: {
-      type: Number,
+      type: String,
       required: true,
     },
   },

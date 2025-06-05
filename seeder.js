@@ -23,16 +23,23 @@ mongoose.connect(process.env.MONGO_URI, {
 const errorStates = [];
 
 // Function to create states and return their IDs
-const getStateIds = async (states) => {
+const getStateIds = async (providedStates, statesToImport) => {
   const stateIds = {};
-  for (const stateName of states) {
-    // Check if the state already exists
-    let state = await State.findOne({ stateName });
+
+  for (const { StateName, StateId } of providedStates) {
+    if (!statesToImport.includes(StateName)) continue;
+
+    let state = await State.findOne({ stateName: StateName });
     if (!state) {
-      state = await State.create({ stateName });
+      state = await State.create({
+        stateName: StateName,
+        stateId: StateId,
+      });
     }
-    stateIds[stateName] = state.stateId;
+
+    stateIds[StateName] = StateId;
   }
+
   return stateIds;
 };
 
@@ -106,51 +113,51 @@ const createCourses = async (InstitutionId, stateName) => {
 // Import data into the database
 const importData = async () => {
   try {
-    const states = [
-      "Abia",
-      "Abuja",
-      "Adamawa",
-      "Akwa-Ibom",
-      "Anambra",
-      "Bauchi",
-      "Bayelsa",
-      "Benue",
-      "Borno",
-      "Cross-River",
-      "Delta",
-      "Ebonyi",
-      "Edo",
-      "Ekiti",
-      "Enugu",
-      "Gombe",
-      "Imo",
-      "Jigawa",
-      "Kaduna",
-      "Kano",
-      "Kastina",
-      "Kebbi",
-      "Kogi",
-      "Kwara",
-      "Lagos",
-      "Nassarawa",
-      "Niger",
-      "Ogun",
-      "Ondo",
-      "Osun",
-      "Oyo",
-      "Pleatue",
+    const providedStates = [
+      { StateId: 382, StateName: "Abia" },
+      { StateId: 383, StateName: "Abuja" },
+      { StateId: 384, StateName: "Adamawa" },
+      { StateId: 385, StateName: "Akwa-Ibom" },
+      { StateId: 386, StateName: "Anambra" },
+      { StateId: 387, StateName: "Bauchi" },
+      { StateId: 388, StateName: "Bayelsa" },
+      { StateId: 389, StateName: "Benue" },
+      { StateId: 390, StateName: "Borno" },
+      { StateId: 391, StateName: "Cross-River" },
+      { StateId: 392, StateName: "Delta" },
+      { StateId: 393, StateName: "Ebonyi" },
+      { StateId: 394, StateName: "Edo" },
+      { StateId: 395, StateName: "Ekiti" },
+      { StateId: 396, StateName: "Enugu" },
+      { StateId: 397, StateName: "Gombe" },
+      { StateId: 398, StateName: "Imo" },
+      { StateId: 399, StateName: "Jigawa" },
+      { StateId: 400, StateName: "Kaduna" },
+      { StateId: 401, StateName: "Kano" },
+      { StateId: 402, StateName: "Kastina" },
+      { StateId: 403, StateName: "Kebbi" },
+      { StateId: 404, StateName: "Kogi" },
+      { StateId: 405, StateName: "Kwara" },
+      { StateId: 406, StateName: "Lagos" },
+      { StateId: 407, StateName: "Nassarawa" },
+      { StateId: 408, StateName: "Niger" },
+      { StateId: 409, StateName: "Ogun" },
+      { StateId: 410, StateName: "Ondo" },
+      { StateId: 411, StateName: "Osun" },
+      { StateId: 412, StateName: "Oyo" },
+      { StateId: 413, StateName: "Pleatue" },
     ];
 
-    const stateIds = await getStateIds(states);
+    const stateIds = await getStateIds(providedStates, providedStates.map(s => s.StateName));
 
     // Loop through each state and process universities and courses
-    for (const stateName of states) {
+    for (const stateName of providedStates.map(s => s.StateName)) {
       const universityIds = await getUniversityIds(stateIds, stateName);
-
       for (const universityId of Object.values(universityIds)) {
         await createCourses(universityId, stateName);
       }
     }
+
 
     console.log("Data Imported...");
     process.exit();
